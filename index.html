@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Calling Data Base</title>
+</head>
+<body>
+
+  <!--===========HEADER SECTION========-->
+  <section class="header" id="header">
+    <div class="header-container">
+      <h2>Cesar Alvarez <span> Realtor </span></h2>
+      <h1>Calling Data Base</h1>
+      <img src="img/Copia de Logo-Gris-Platinum-RGB-Globo.png" alt="">
+    </div>
+  </section>
+
+  <!--==========FORM SECTION===========-->
+  <section class="form-section">
+    <div class="form-container">
+      <form id="form" method="POST">
+        
+        <div class="field">
+          <label class="label">No. Tel 1</label>
+          <div class="control">
+            <input
+              class="input"
+              type="text"
+              placeholder="# Tel"
+              name="Numero 1"
+            />
+          </div>
+        </div>
+  
+        <div class="field">
+          <label class="label">No. Tel 2</label>
+          <div class="control">
+            <input
+              class="input"
+              type="text"
+              placeholder="# Tel"
+              name="Numero 2"
+            />
+          </div>
+        </div>
+  
+        <div class="field">
+          <label class="label">direccion</label>
+          <div class="control">
+            <input
+              class="input"
+              type="text"
+              placeholder="# Direccion"
+              name="Direccion"
+            />
+          </div>
+        </div>
+  
+        <div class="field">
+          <label class="label">Nombre Edificio</label>
+          <div class="control">
+            <input
+              class="input"
+              type="text"
+              placeholder="Nombre"
+              name="Edificio"
+            />
+          </div>
+        </div>
+  
+        <div class="field">
+          <label class="label">Barrio</label>
+          <div class="control">
+            <input
+              class="input"
+              type="text"
+              placeholder="Barrio"
+              name="Barrio"
+            />
+          </div>
+        </div>
+  
+        
+  
+        <div class="field">
+          <label class="label">Tipo de Inmueble </label>
+          <div class="control">
+            <label class="radio">
+              <input type="radio" name="Inmueble" value="Apt" /> Apt
+            </label>
+            <label class="radio">
+              <input type="radio" name="Inmueble" value="Casa" /> Casa
+            </label>
+          </div>
+        </div>
+  
+          
+  
+        
+        
+  
+        
+  
+        <div class="field is-grouped">
+          <div class="control">
+            <button type="submit" id="submit-button">
+              Guardar
+            </button>
+          </div>
+          
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section class="message-box">
+    <div class="message-text" id="message"></div>
+  </section>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
